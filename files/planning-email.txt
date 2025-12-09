@@ -1,0 +1,50 @@
+Return-Path: <notifications@meridiandevelopment.com>
+Received: from smtp-relay.meridiandevelopment.com (smtp-relay.meridiandevelopment.com [203.45.112.88])
+        by mx.riversidecity.gov (Postfix) with ESMTP id 3B2C1F8823
+        for <citycouncil@riversidecity.gov>; Fri, 08 Nov 2025 14:22:18 -0800 (PST)
+Received: from internal-exchange.meridian.local (unknown [10.0.1.50])
+        by smtp-relay.meridiandevelopment.com (Postfix) with ESMTP id 2A441B7612;
+        Fri, 08 Nov 2025 14:22:16 -0800 (PST)
+Received: from DESKTOP-MKT-MARCUS.meridian.local (10.0.1.112) by
+        internal-exchange.meridian.local (10.0.1.50) with Microsoft SMTP Server
+        id 15.1.2507.17; Fri, 8 Nov 2025 14:22:14 -0800
+X-Originating-IP: [10.0.1.112]
+X-Mailer: Microsoft Outlook 16.0
+Message-ID: <MDG-2025-1108-1422-MTHOMPSON@meridiandevelopment.com>
+Date: Fri, 08 Nov 2025 14:22:14 -0800
+From: "Riverside Planning Department" <planning@riversidecity.gov>
+To: "City Council Distribution" <citycouncil@riversidecity.gov>
+Cc: James Chen <jchen@riversidecity.gov>
+Subject: Downtown Zoning Overlay Proposal - Council Review Materials
+MIME-Version: 1.0
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Council Members,
+
+Please find attached the staff recommendation for the Downtown Zoning Overlay proposal. This memo summarizes our findings following an extensive community engagement process.
+
+Key points for your review:
+
+1. The proposal reflects input from over 2,800 community members gathered through town halls, focus groups, and surveys.
+
+2. Recommended changes include increased density allowances, reduced parking requirements, and a new affordable housing incentive program.
+
+3. Economic projections indicate significant fiscal benefits, including $2.4 million in new annual property tax revenue.
+
+4. Environmental review found no significant impacts.
+
+Staff will present the full proposal at the December 12 council meeting. A public comment period is scheduled for December 1-10.
+
+Please don't hesitate to reach out with any questions before the presentation.
+
+Best regards,
+
+James Chen
+Director of Planning and Community Development
+City of Riverside
+(555) 234-5600
+jchen@riversidecity.gov
+
+---
+CONFIDENTIALITY NOTICE: This email and any attachments are for the exclusive and confidential use of the intended recipient.
+

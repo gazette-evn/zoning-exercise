@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Files</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-top: 0;
+            color: #333;
+        }
+        .file-list {
+            list-style: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        .file-list li:last-child {
+            border-bottom: none;
+        }
+        .file-list a {
+            color: #1a5276;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+        .file-desc {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+        }
+        .download-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+        }
+        .btn {
+            display: inline-block;
+            background: #1a5276;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #154360;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>📁 Exercise Files</h1>
+        <p>Open and examine each of these materials.</p>
+        
+        <ul class="file-list">
+            <li>
+                <a href="city/downtown-initiative.html" target="_blank">City of Riverside - Downtown Initiative</a>
+                <div class="file-desc">City government webpage about the revitalization plan</div>
+            </li>
+            <li>
+                <a href="files/zoning-policy-memo.docx" download>Zoning Policy Memo (Word doc)</a>
+                <div class="file-desc">Policy recommendation from the Planning Department</div>
+            </li>
+            <li>
+                <a href="files/planning-email.txt" download>Planning Department Email</a>
+                <div class="file-desc">Email to City Council about the zoning proposal</div>
+            </li>
+            <li>
+                <a href="files/mayor-working-photo.jpg" download>Mayor's Photo</a>
+                <div class="file-desc">Photo the mayor posted on social media</div>
+            </li>
+        </ul>
+        
+        <div class="download-section">
+            <strong>Download all files:</strong>
+            <br>
+            <a href="files/exercise-files.zip" class="btn" download>📦 Download ZIP</a>
+        </div>
+    </div>
+</body>
+</html>
+

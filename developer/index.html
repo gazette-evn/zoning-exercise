@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meridian Development Group</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%);
+            color: white;
+            padding: 20px 0;
+        }
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .logo span {
+            color: #c9a227;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        nav a:hover {
+            color: #c9a227;
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600') center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            color: #1a252f;
+            border-bottom: 3px solid #c9a227;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+        .about-text p {
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .stat-item h3 {
+            font-size: 2.5em;
+            color: #c9a227;
+        }
+        .team-section {
+            background: #f8f8f8;
+        }
+        .team-image {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .team-caption {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 15px;
+            font-style: italic;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-card .content {
+            padding: 20px;
+        }
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: #1a252f;
+        }
+        footer {
+            background: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 60px;
+        }
+        footer p {
+            opacity: 0.7;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            .projects {
+                grid-template-columns: 1fr;
+            }
+            .stats {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">MERIDIAN <span>DEVELOPMENT GROUP</span></div>
+            <nav>
+                <a href="#">About</a>
+                <a href="#">Projects</a>
+                <a href="#">Team</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="hero">
+        <div>
+            <h1>Building Tomorrow's Communities</h1>
+            <p>Premier mixed-use development across the Southwest</p>
+        </div>
+    </div>
+    
+    <section class="section">
+        <h2>About Meridian</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Meridian Development Group is a leading real estate development firm specializing in transformative mixed-use projects that revitalize urban cores and create vibrant, walkable communities.</p>
+                <p>Founded in 2008, we've partnered with municipalities across Arizona and the Southwest to deliver projects that balance economic growth with community needs.</p>
+                <p>Our approach combines deep market expertise with collaborative partnerships that ensure every project reflects the unique character of its community.</p>
+            </div>
+            <div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>$2.4B</h3>
+                        <p>Total Development Value</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>47</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>12</h3>
+                        <p>Municipal Partners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section team-section">
+        <h2>Our Team</h2>
+        <div class="about-content">
+            <div>
+                <!-- THIS IS THE KEY IMAGE - the wide shot of the developer meeting -->
+                <img src="../images/developer-meeting.jpg" alt="Meridian Development Group leadership team meeting" class="team-image">
+                <p class="team-caption">Meridian leadership reviewing plans for an upcoming downtown revitalization project.</p>
+            </div>
+            <div class="about-text">
+                <p><strong>Marcus Thompson</strong>, CEO and Founder, brings 25 years of experience in commercial real estate development. Under his leadership, Meridian has become a trusted partner for municipalities seeking thoughtful urban development.</p>
+                <p><strong>Sarah Chen</strong>, VP of Government Relations, leads our municipal partnership initiatives, working closely with city officials to align development goals with community priorities.</p>
+                <p><strong>David Park</strong>, Chief Development Officer, oversees project execution from concept through completion, ensuring every development meets our standards for quality and community impact.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Featured Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400" alt="Project">
+                <div class="content">
+                    <h3>Scottsdale Quarter Phase III</h3>
+                    <p>Mixed-use retail and residential development in North Scottsdale.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1486718448742-163732cd1544?w=400" alt="Project">
+                <div class="content">
+                    <h3>Mesa Arts District</h3>
+                    <p>Adaptive reuse project bringing new life to historic downtown Mesa.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://images.unsplash.com/photo-1460317442991-0ec209397118?w=400" alt="Project">
+                <div class="content">
+                    <h3>Riverside Downtown</h3>
+                    <p>Coming soon — transformative mixed-use development in downtown Riverside.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Meridian Development Group. All rights reserved.</p>
+        <p>2415 E Camelback Rd, Suite 1200, Phoenix, AZ 85016</p>
+    </footer>
+</body>
+</html>
+
